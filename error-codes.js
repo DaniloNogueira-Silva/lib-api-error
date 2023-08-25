@@ -32,7 +32,17 @@ module.exports = {
     FORBIDDEN: {
       code: 403,
       httpStatus: 'FORBIDDEN',
-      message: 'Acesso proibido. Você não tem permissão para executar esta ação.'
+      message: 'Acesso negado. Você não tem permissão para executar esta ação.'
+    },
+    TOKEN_INACTIVE: {
+      code: 401,
+      httpStatus: 'TOKEN_INACTIVE',
+      message: 'Token inativo. O token de acesso fornecido não está mais ativo.'
+    },
+    INVALID_TOKEN: {
+      code: 401,
+      httpStatus: 'INVALID_TOKEN',
+      message: 'Token inválido. O token de acesso fornecido é inválido ou expirou.'
     }
   };
   
