@@ -1,6 +1,6 @@
 {
   "name": "lib-api-error",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lib para padronização de erros para APIs",
   "main": "index.js",
   "scripts": {
