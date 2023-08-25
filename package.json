@@ -1,6 +1,6 @@
 {
   "name": "lib-api-error",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Lib para padronização de erros para APIs",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/DaniloNogueira-Silva/lib-api-error/issues"
   },
-  "homepage": "https://github.com/DaniloNogueira-Silva/lib-api-error#readme",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "homepage": "https://github.com/DaniloNogueira-Silva/lib-api-error#readme"
 }
